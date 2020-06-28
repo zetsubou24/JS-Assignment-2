@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link href="style.css" rel="stylesheet" type="text/css">
+     <link href="semantic.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+     <div class="ui inverted segment" style="border-radius: 0%; text-align: center;">
+        <h1 class="ui red inverted header huge">Zwiggy</h1>
+    </div>
+        <div class="ui two column grid">
+         <div class="four wide column" style="border: solid;" >
+           <div class = "ui segment">
+            <h2 class="ui header left">Tables</h2>
+            <input class="right"type="text" placeholder="Filter Tables"></input>
+           </div>
+           <div id="tables" class="ui cards">
+
+           </div> 
+        </div>
+         <div class="twelve wide column" style="border: solid;">
+            <div class = "ui segment">
+                <h2 class="ui header left">Dishes</h2>
+                <input id="dishinput" class="right" type="text" placeholder="Filter Dishes" onchange="filterDishes()"></input>
+                <input type="button" onclick="filterDishes()" value="Filter Dishes">
+            </div>
+            <div id="dishes" class="ui cards">
+
+            </div>  
+         </div>
+     </div>
+     <script src="index.js"></script>
+ </body>
+ </html>

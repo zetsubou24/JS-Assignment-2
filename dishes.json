@@ -1,0 +1,24 @@
+[
+    {
+        "id" : 1,
+        "image" : "./butter_chicken.jpeg",
+        "name" : "Butter Chicken",
+        "veg" : "./non-veg.jpeg",
+        "price" : 200
+    },
+    {
+        "id" : 2,
+        "image" : "./butter_naan2.jpeg",
+        "name" : "Butter Naan",
+        "veg" : "./veg.jpeg",
+        "price" : 120
+    },
+    {
+        "id" : 3,
+        "image" : "./butter_chicken.jpeg",
+        "name" : "Spicy Chicken",
+        "veg" : "./non-veg.jpeg",
+        "price" : 200
+    }
+
+]
